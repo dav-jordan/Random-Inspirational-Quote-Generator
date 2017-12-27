@@ -31,14 +31,20 @@ class DLNode
 class DLList
 {
     //head of list
-    var head : DLNode = DLNode()
+    var head : DLNode
+
+    //number of nodes in list *not including head*
+    var length : Int
 
     //initializer
     init()
     {
+        head = DLNode()
+        length = 0
         head.message = nil
         head.next = head
         head.prev = head
     }
+
 
 }
