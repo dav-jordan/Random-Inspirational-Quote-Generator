@@ -16,3 +16,11 @@ class DLNode
     var next : DLNode?
     var prev : DLNode?
 }
+
+
+//class for doubly linked list that will store the templates for the quotes
+class DLList
+{
+    //head of list
+    var head : DLNode?
+}
