@@ -4,3 +4,15 @@
 //
 
 import Foundation
+
+//Struct that will be used for every node of the Doubly linked list
+//the message variable will be used to store the templates for the quotes, one template per node
+class DLNode
+{
+    //template storage
+    var message : String?
+
+    //next and prev for DLList
+    var next : DLNode?
+    var prev : DLNode?
+}
