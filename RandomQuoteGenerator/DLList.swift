@@ -87,5 +87,6 @@ class DLList
         head.next.prev = node
         node.prev = head
         head.next = node
+        length = length + 1
     }
 }
