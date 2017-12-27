@@ -15,6 +15,15 @@ class DLNode
     //next and prev for DLList
     var next : DLNode?
     var prev : DLNode?
+
+    //initializers
+    init()
+    {}
+    init(value:String)
+    {
+        message = value
+    }
+
 }
 
 
@@ -22,5 +31,6 @@ class DLNode
 class DLList
 {
     //head of list
-    var head : DLNode?
+    var head : DLNode = DLNode()
+
 }
