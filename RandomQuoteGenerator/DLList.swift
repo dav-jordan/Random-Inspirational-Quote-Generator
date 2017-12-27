@@ -80,9 +80,12 @@ class DLList
     }
 
     //inserts a node at the front of the list
-    //TODO: Implement the function
+    //TODO: Test this function
     func insertFront(node:DLNode)
     {
-
+        node.next = head.next
+        head.next.prev = node
+        node.prev = head
+        head.next = node
     }
 }
