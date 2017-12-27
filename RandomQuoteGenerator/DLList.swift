@@ -39,8 +39,13 @@ class DLList
     //initializer
     init()
     {
+        //init head
         head = DLNode()
+
+        //init length
         length = 0
+
+        //init vars in head
         head.message = nil
         head.next = head
         head.prev = head
