@@ -36,6 +36,9 @@ class DLList
     //initializer
     init()
     {
+        head.message = nil
+        head.next = head
+        head.prev = head
     }
 
 }
