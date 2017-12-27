@@ -11,6 +11,7 @@
 		3EC1E3785F0121C99B259C3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1E363E2F7B265BEE8D9D9 /* LaunchScreen.storyboard */; };
 		3EC1E492677854E667440ACE /* RandomQuoteGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1EC4DC2DF4F2BFC9696B4 /* RandomQuoteGeneratorUITests.swift */; };
 		3EC1E8307A79F2D2BDAA4AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1E7DB2404A7722344667E /* Assets.xcassets */; };
+		3EC1EAB0F694EB0B0F127BA0 /* DLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1EAE1393BAD9942F89560 /* DLList.swift */; };
 		3EC1EAD8CAE6185C88D720C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1EF2B4ABFE98DC238CB15 /* Main.storyboard */; };
 		3EC1EBD65658E5CEB055F5F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1E2751449D59C93955F0E /* AppDelegate.swift */; };
 		3EC1EBF96B1EEEFE80A82230 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1E898564453913CA823AE /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		3EC1E9320B50F8B143739C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EC1EA43B8A8BB10E6D16C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		3EC1EA8695C7CDBB85D0F3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EC1EAE1393BAD9942F89560 /* DLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLList.swift; sourceTree = "<group>"; };
 		3EC1EB53E3A97C67C0850E58 /* RandomQuoteGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomQuoteGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC1EC06C45079BDCE22DCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		3EC1EC4DC2DF4F2BFC9696B4 /* RandomQuoteGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteGeneratorUITests.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				3EC1E2751449D59C93955F0E /* AppDelegate.swift */,
 				3EC1EF2B4ABFE98DC238CB15 /* Main.storyboard */,
 				3EC1E898564453913CA823AE /* ViewController.swift */,
+				3EC1EAE1393BAD9942F89560 /* DLList.swift */,
 			);
 			path = RandomQuoteGenerator;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			files = (
 				3EC1EBD65658E5CEB055F5F4 /* AppDelegate.swift in Sources */,
 				3EC1EBF96B1EEEFE80A82230 /* ViewController.swift in Sources */,
+				3EC1EAB0F694EB0B0F127BA0 /* DLList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
