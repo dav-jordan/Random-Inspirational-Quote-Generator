@@ -13,15 +13,21 @@ class DLNode
     var message : String
 
     //next and prev for DLList
-    var next : DLNode
-    var prev : DLNode
+    var next : DLNode?
+    var prev : DLNode?
 
     //initializers
     init()
-    {}
+    {
+        message = ""
+        next = nil
+        prev = nil
+    }
     init(value:String)
     {
         message = value
+        next = nil
+        prev = nil
     }
 
 }
@@ -64,17 +70,17 @@ class DLList
 
         //initialize a counter and a node to traverse the list
         var count:Int = 0
-        var e:DLNode = head.next
+        var e:DLNode? = head.next
 
         //keep going until head is reached
         while count < length
         {
             //print message
-            print(e.message + "\n")
+            print(e!.message + "\n")
 
             //increment count and move node to next
             count = count + 1
-            e = e.next
+            e = e?.next
         }
 
     }
@@ -84,7 +90,7 @@ class DLList
     func insertFront(node:DLNode)
     {
         node.next = head.next
-        head.next.prev = node
+        head.next?.prev = node
         node.prev = head
         head.next = node
         length = length + 1
