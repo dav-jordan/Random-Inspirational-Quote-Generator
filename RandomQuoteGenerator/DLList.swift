@@ -24,16 +24,6 @@ class DLNode
         message = value
     }
 
-    //mutators for next and prev
-    func setNext(node:DLNode)
-    {
-        next = node
-    }
-    func setPrev(node:DLNode)
-    {
-        prev = node
-    }
-
 }
 
 
