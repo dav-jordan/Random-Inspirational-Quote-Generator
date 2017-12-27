@@ -43,4 +43,9 @@ class DLList
     //head of list
     var head : DLNode = DLNode()
 
+    //initializer
+    init()
+    {
+    }
+
 }
