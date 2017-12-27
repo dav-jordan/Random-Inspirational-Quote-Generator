@@ -33,7 +33,7 @@ class DLList
     //head of list
     var head : DLNode
 
-    //number of nodes in list *not including head*
+    //var to store number of nodes not including head
     var length : Int
 
     //initializer
@@ -55,8 +55,28 @@ class DLList
     //used for debugging only
     func printList()
     {
+        print("List:\n")
+        //check if list is empty
+        if length == 0
+        {
+            print("{EMPTY LIST}\n")
+        }
+
+        //initialize a counter and a node to traverse the list
         var count:Int = 0
         var e:DLNode = head.next
+
+        //keep going until head is reached
+        while count < length
+        {
+            //print message
+            print(e.message + "\n")
+
+            //increment count and move node to next
+            count = count + 1
+            e = e.next
+        }
+
     }
 
 }
