@@ -59,7 +59,7 @@ class DLList
 
     //prints message from every node in list not including head of course
     //used for debugging only
-    func printList(list:DLList)
+    static func printList(list:DLList)
     {
         print("List:\n")
         //check if list is empty
