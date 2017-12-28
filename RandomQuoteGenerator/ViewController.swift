@@ -53,6 +53,10 @@ class ViewController: UIViewController {
         //print for testing
         DLList.printList(list:templates!)
 
+        //add third template
+        n = nil
+        n = DLNode(value:"Always " + blank1 + " your " + blank2 + ".")
+
 
     }
 
