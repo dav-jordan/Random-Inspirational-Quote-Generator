@@ -7,14 +7,18 @@
 //
 
 import UIKit
-import RandomQuoteGenerator
 
 class ViewController: UIViewController {
+
+    //DLList for templates
+    var templates:DLList?
 
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        var list:DLList = DLList()
+
+        //init templates list
+        templates = DLList()
     }
 
 
