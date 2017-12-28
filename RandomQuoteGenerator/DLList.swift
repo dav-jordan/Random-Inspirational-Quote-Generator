@@ -89,10 +89,13 @@ class DLList
     //TODO: Test this function
     func insertFront(node:DLNode?)
     {
+        //add node to front
         node?.next = head.next
         head.next?.prev = node
         node?.prev = head
         head.next = node
+
+        //increment length
         length = length + 1
     }
 }
