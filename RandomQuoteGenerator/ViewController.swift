@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     //DLList for templates
     var templates:DLList?
 
+    //blank spaces to be filled
+    var blank1:String = "[blank]"
+    var blank2:String = "[blank]"
+
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -28,6 +32,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func loadTemplates(list:DLList)
+    {
 
+    }
 
 }
