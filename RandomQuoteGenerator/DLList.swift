@@ -59,7 +59,7 @@ class DLList
 
     //prints message from every node in list not including head of course
     //used for debugging only
-    func printList()
+    func printList(list:DLList)
     {
         print("List:\n")
         //check if list is empty
@@ -70,7 +70,7 @@ class DLList
 
         //initialize a counter and a node to traverse the list
         var count:Int = 0
-        var e:DLNode? = head.next
+        var e:DLNode? = list.head.next
 
         //keep going until head is reached
         while count < length
