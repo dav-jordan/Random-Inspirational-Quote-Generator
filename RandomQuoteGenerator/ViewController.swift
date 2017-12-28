@@ -23,8 +23,10 @@ class ViewController: UIViewController {
 
         //init templates list
         templates = DLList()
-    }
 
+        //load templates to list
+        loadTemplates(list:templates!)
+    }
 
     override func didReceiveMemoryWarning()
     {
@@ -45,6 +47,7 @@ class ViewController: UIViewController {
         //add second template
         n = nil
         n = DLNode(value:"The only way to a person's " + blank1 + " is with your " + blank2 + ".")
+        templates?.insertFront(node:n)
 
         //print for testing
         DLList.printList(list:templates!)
