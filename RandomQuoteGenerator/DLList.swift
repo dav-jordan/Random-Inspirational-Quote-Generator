@@ -75,12 +75,8 @@ class DLList
         //keep going until head is reached
         while count < list.length
         {
-            //print subscript
-            print(count)
-            print(": ")
-
             //print message
-            print(e!.message + "\n")
+            print(String(count) + ": " + e!.message + "\n")
 
             //increment count and move node to next
             count = count + 1
