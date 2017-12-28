@@ -75,6 +75,10 @@ class DLList
         //keep going until head is reached
         while count < list.length
         {
+            //print subscript
+            print(count)
+            print(": ")
+
             //print message
             print(e!.message + "\n")
 
