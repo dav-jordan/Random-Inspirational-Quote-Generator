@@ -63,7 +63,7 @@ class DLList
     {
         print("List:\n")
         //check if list is empty
-        if length == 0
+        if list.length == 0
         {
             print("{EMPTY LIST}\n")
         }
@@ -73,7 +73,7 @@ class DLList
         var e:DLNode? = list.head.next
 
         //keep going until head is reached
-        while count < length
+        while count < list.length
         {
             //print message
             print(e!.message + "\n")
