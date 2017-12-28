@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //adds nodes to templates
     func loadTemplates(list:DLList)
     {
         //add first template
