@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     }
 
     //adds nodes to templates
+    //TODO: Add comments with subscripts after adding templates
     func loadTemplates(list:DLList)
     {
         //add first template
@@ -51,6 +52,7 @@ class ViewController: UIViewController {
 
         //print for testing
         DLList.printList(list:templates!)
+
 
     }
 
