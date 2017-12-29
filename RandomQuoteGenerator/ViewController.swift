@@ -26,6 +26,7 @@ class ViewController: UIViewController {
 
         //load templates to list
         loadTemplates(list:templates!)
+        DLList.printList(list:templates!)
     }
 
     override func didReceiveMemoryWarning()
