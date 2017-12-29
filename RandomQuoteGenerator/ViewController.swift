@@ -86,6 +86,10 @@ class ViewController: UIViewController {
         n = DLNode(value:"There are bad ways to " + blank1 + " and good ways to " + blank2 + ", but it isn't always obvious which is which.")
         templates?.insertFront(node:n)
 
+        //add ninth template
+        n = nil
+        n = DLNode(value:"Whatever you can " + blank1 + ", you can " + blank2 + ".")
+
 
     }
 
