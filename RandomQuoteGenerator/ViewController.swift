@@ -71,6 +71,21 @@ class ViewController: UIViewController {
         n = DLNode(value:"To live is to " + blank1 + " your " + blank2 + ".")
         templates?.insertFront(node:n)
 
+        //add sixth template
+        n = nil
+        n = DLNode(value:blank1 + " a " + blank2 + ". You won't regret it.")
+        templates?.insertFront(node:n)
+
+        //add seventh template
+        n = nil
+        n = DLNode(value:"Don't ponder the " + blank1 + ". You will only find " + blank2 + ".")
+        templates?.insertFront(node:n)
+
+        //add eighth template
+        n = nil
+        n = DLNode(value:"There are bad ways to " + blank1 + " and good ways to " + blank2 + ", but it isn't always obvious which is which.")
+        templates?.insertFront(node:n)
+
 
     }
 
