@@ -36,6 +36,8 @@ class ViewController: UIViewController {
 
     //adds nodes to templates
     //TODO: Add comments with subscripts after adding templates
+    //*The way this is going to work is I am going to replace blank1 and blank2 with random words when
+    //a button is pressed*
     func loadTemplates(list:DLList)
     {
         //add first template
@@ -56,6 +58,12 @@ class ViewController: UIViewController {
         //add third template
         n = nil
         n = DLNode(value:"Always " + blank1 + " your " + blank2 + ".")
+        templates?.insertFront(node:n)
+
+        //add fourth template
+        n = nil
+        n = DLNode(value:blank1 + " people always " + blank2 + ".")
+        templates?.insertFront(node:n)
 
 
     }
