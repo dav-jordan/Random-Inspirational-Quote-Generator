@@ -36,6 +36,7 @@ class ViewController: UIViewController {
 
     //adds nodes to templates
     //TODO: Add comments with subscripts after adding templates
+    //TODO: Add 5 more templates to make it an even 10
     //*The way this is going to work is I am going to replace blank1 and blank2 with random words when
     //a button is pressed*
     func loadTemplates(list:DLList)
@@ -63,6 +64,11 @@ class ViewController: UIViewController {
         //add fourth template
         n = nil
         n = DLNode(value:blank1 + " people always " + blank2 + ".")
+        templates?.insertFront(node:n)
+
+        //add fifth template
+        n = nil
+        n = DLNode(value:"To live is to " + blank1 + " your " + blank2 + ".")
         templates?.insertFront(node:n)
 
 
