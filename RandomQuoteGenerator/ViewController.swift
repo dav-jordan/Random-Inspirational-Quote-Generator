@@ -36,7 +36,6 @@ class ViewController: UIViewController {
 
     //adds nodes to templates
     //TODO: Add comments with subscripts after adding templates
-    //TODO: Add 5 more templates to make it an even 10
     //*The way this is going to work is I am going to replace blank1 and blank2 with random words when
     //a button is pressed*
     func loadTemplates(list:DLList)
