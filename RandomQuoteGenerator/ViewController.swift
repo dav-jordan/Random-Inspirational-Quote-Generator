@@ -91,6 +91,9 @@ class ViewController: UIViewController {
         n = DLNode(value:"Whatever you can " + blank1 + ", you can " + blank2 + ".")
         templates?.insertFront(node:n)
 
+        //add tenth template
+        n = nil
+        n = DLNode(value:"It is in our " + blank1 + " moments where we must focus to see the " + blank2 + ".")
 
     }
 
