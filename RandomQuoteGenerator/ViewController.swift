@@ -89,6 +89,7 @@ class ViewController: UIViewController {
         //add ninth template
         n = nil
         n = DLNode(value:"Whatever you can " + blank1 + ", you can " + blank2 + ".")
+        templates?.insertFront(node:n)
 
 
     }
