@@ -36,9 +36,7 @@ class ViewController: UIViewController {
     }
 
     //adds nodes to templates
-    //TODO: Add comments with subscripts after adding templates
-    //*The way this is going to work is I am going to replace blank1 and blank2 with random words when
-    //a button is pressed*
+    //Numbers are the node's subscript in the list
     func loadTemplates(list:DLList)
     {
         //add first template
