@@ -30,6 +30,11 @@ class DLNode
         prev = nil
     }
 
+    //replaces every instance of "from" in message to "to"
+    func replaceString(from:String, to:String)
+    {
+
+    }
 }
 
 
