@@ -50,6 +50,12 @@ class ViewController: UIViewController {
         
     }
     
+    //Action for when Generate is pressed
+    @IBAction func generatePressed(_sender:UIButton)
+    {
+        
+    }
+
     //adds nodes to templates
     //Numbers are the node's subscript in the list
     func loadTemplates(list:DLList)
