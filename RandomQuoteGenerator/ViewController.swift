@@ -92,7 +92,8 @@ class ViewController: UIViewController {
     
     //Action for when Generate is pressed
     //TODO:Will need set_ith and get_ith for DLList to manipulate the message
-    //TODO:getBlankLocations and deleteString will also be useful
+    //TODO:will need replaceString in DLList to change blanks
+    //TODO:word lists will also be needed
     @IBAction func generatePressed(_ sender:UIButton)
     {
         
