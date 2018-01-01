@@ -20,8 +20,8 @@ class ViewController: UIViewController {
     var current:DLNode?
 
     //blank spaces to be filled
-    var blank1:String = "[blank]"
-    var blank2:String = "[blank]"
+    var blank1:String = "[blank1]"
+    var blank2:String = "[blank2]"
 
     override func viewDidLoad()
     {
@@ -54,8 +54,8 @@ class ViewController: UIViewController {
     @IBAction func rightButtonPressed(_ sender:UIButton)
     {
         //reset blanks
-        blank1 = "[blank]"
-        blank2 = "[blank]"
+        blank1 = "[blank1]"
+        blank2 = "[blank2]"
 
         //move current to next location
         current = current?.next
@@ -74,8 +74,8 @@ class ViewController: UIViewController {
     @IBAction func leftButtonPressed(_ sender:UIButton)
     {
         //reset blanks
-        blank1 = "[blank]"
-        blank2 = "[blank]"
+        blank1 = "[blank1]"
+        blank2 = "[blank2]"
 
         //move current to previous location
         current = current?.prev
