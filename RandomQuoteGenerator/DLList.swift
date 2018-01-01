@@ -41,6 +41,7 @@ class DLNode
         }
 
         //change "from" to "to"
+        //TODO:Test after necessary list functions are added
         message = message.replacingOccurrences(of:from, with:to)
     }
 }
