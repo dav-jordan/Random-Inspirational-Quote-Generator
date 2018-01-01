@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     //DLList for templates
     var templates:DLList?
 
+    //Node to store current location in list
+    var current:DLNode?
+
     //blank spaces to be filled
     var blank1:String = "[blank]"
     var blank2:String = "[blank]"
@@ -24,12 +27,21 @@ class ViewController: UIViewController {
     {
         super.viewDidLoad()
 
+        //make quote read only
+        QuoteView.isEditable = false
+
+        //welcome message
+        QuoteView.text = "Hello!\n Click the arrow buttons to choose a template, and then click \"Generate!\"."
+
         //init templates list
         templates = DLList()
 
         //load templates to list
         loadTemplates(list:templates!)
         DLList.printList(list:templates!)
+
+        //init current
+        current = templates?.head
     }
 
     override func didReceiveMemoryWarning()
@@ -41,7 +53,17 @@ class ViewController: UIViewController {
     //Action for when right button is pressed
     @IBAction func rightButtonPressed(_sender:UIButton)
     {
-        
+        //move current to next location
+        current = current?.next
+
+        //make sure current is not head
+        if current?.message == templates?.head.message
+        {
+            current = current?.next
+        }
+
+        //update text
+        QuoteView.text = current?.message
     }
     
     //Action for when left button is pressed
