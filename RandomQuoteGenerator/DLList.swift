@@ -40,6 +40,8 @@ class DLNode
             return
         }
 
+        //change "from" to "to"
+        message = message.replacingOccurrences(of:from, with:to)
     }
 }
 
