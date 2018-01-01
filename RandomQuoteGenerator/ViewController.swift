@@ -69,7 +69,17 @@ class ViewController: UIViewController {
     //Action for when left button is pressed
     @IBAction func leftButtonPressed(_ sender:UIButton)
     {
-        
+        //move current to previous location
+        current = current?.prev
+
+        //make sure current is not head
+        if current?.message == templates?.head.message
+        {
+            current = current?.prev
+        }
+
+        //update text
+        QuoteView.text = current?.message
     }
     
     //Action for when Generate is pressed
