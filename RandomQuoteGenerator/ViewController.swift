@@ -53,6 +53,10 @@ class ViewController: UIViewController {
     //Action for when right button is pressed
     @IBAction func rightButtonPressed(_ sender:UIButton)
     {
+        //reset blanks
+        blank1 = "[blank]"
+        blank2 = "[blank]"
+
         //move current to next location
         current = current?.next
 
@@ -69,6 +73,10 @@ class ViewController: UIViewController {
     //Action for when left button is pressed
     @IBAction func leftButtonPressed(_ sender:UIButton)
     {
+        //reset blanks
+        blank1 = "[blank]"
+        blank2 = "[blank]"
+
         //move current to previous location
         current = current?.prev
 
@@ -83,6 +91,8 @@ class ViewController: UIViewController {
     }
     
     //Action for when Generate is pressed
+    //TODO:Will need set_ith and get_ith for DLList to manipulate the message
+    //TODO:getBlankLocations and delete substring will also be useful
     @IBAction func generatePressed(_ sender:UIButton)
     {
         
