@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //Outlet for text field
+    @IBOutlet weak var QuoteView: UITextView!
+    
     //DLList for templates
     var templates:DLList?
 
@@ -35,6 +38,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //Action for when right button is pressed
+    @IBAction func rightButtonPressed(_sender:UIButton)
+    {
+        
+    }
+    
+    //Action for when left button is pressed
+    @IBAction func leftButtonPressed(_sender:UIButton)
+    {
+        
+    }
+    
     //adds nodes to templates
     //Numbers are the node's subscript in the list
     func loadTemplates(list:DLList)
