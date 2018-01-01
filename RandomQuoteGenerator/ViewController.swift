@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     }
 
     //Action for when right button is pressed
-    @IBAction func rightButtonPressed(_sender:UIButton)
+    @IBAction func rightButtonPressed(_ sender:UIButton)
     {
         //move current to next location
         current = current?.next
@@ -67,13 +67,13 @@ class ViewController: UIViewController {
     }
     
     //Action for when left button is pressed
-    @IBAction func leftButtonPressed(_sender:UIButton)
+    @IBAction func leftButtonPressed(_ sender:UIButton)
     {
         
     }
     
     //Action for when Generate is pressed
-    @IBAction func generatePressed(_sender:UIButton)
+    @IBAction func generatePressed(_ sender:UIButton)
     {
         
     }
