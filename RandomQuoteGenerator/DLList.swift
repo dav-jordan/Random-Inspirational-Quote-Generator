@@ -33,6 +33,12 @@ class DLNode
     //replaces every instance of "from" in message to "to"
     func replaceString(from:String, to:String)
     {
+        //make sure "from" exists in message
+        if message.range(of:from) == nil
+        {
+            print("ERROR: couldn't find " + from + " in message.")
+            return
+        }
 
     }
 }
