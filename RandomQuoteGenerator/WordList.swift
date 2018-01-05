@@ -11,13 +11,19 @@ class WordList
     //array to store words
     var words:[String]
 
+    //size of word array
+    var length:Int
+
     //initializer
     init()
-    {}
+    {
+        length = 0
+    }
 
     //used to add a word to words array
     func addWord(add:String)
     {
         words.append(add)
+        length = length + 1
     }
 }
