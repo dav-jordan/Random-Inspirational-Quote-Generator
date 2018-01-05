@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//TODO: Add function that adds words to the lists
 class ViewController: UIViewController {
 
     //Outlet for text field
