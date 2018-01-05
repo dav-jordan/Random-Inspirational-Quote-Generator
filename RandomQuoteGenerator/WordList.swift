@@ -26,4 +26,10 @@ class WordList
         words.append(add)
         length = length + 1
     }
+
+    //returns a random word in words
+    func randomWord() -> String
+    {
+        return " "
+    }
 }
