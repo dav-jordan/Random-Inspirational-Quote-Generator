@@ -39,7 +39,6 @@ class ViewController: UIViewController {
 
         //load templates to list
         loadTemplates(list:templates!)
-        DLList.printList(list:templates!)
 
         //init current
         current = templates?.head
@@ -73,9 +72,6 @@ class ViewController: UIViewController {
 
         //update text
         QuoteView.text = current?.message
-
-        //print for testing
-        print(currSub)
     }
     
     //Action for when left button is pressed
@@ -100,9 +96,6 @@ class ViewController: UIViewController {
 
         //update text
         QuoteView.text = current?.message
-
-        //print for testing
-        print(currSub)
     }
     
     //Action for when Generate is pressed
