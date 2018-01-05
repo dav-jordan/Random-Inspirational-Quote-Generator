@@ -99,7 +99,7 @@ class ViewController: UIViewController {
     }
     
     //Action for when Generate is pressed
-    //TODO:word lists will also  needed
+    //TODO:word lists will also needed
     @IBAction func generatePressed(_ sender:UIButton)
     {
         
