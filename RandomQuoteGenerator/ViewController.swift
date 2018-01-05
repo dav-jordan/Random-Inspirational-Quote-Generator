@@ -73,6 +73,9 @@ class ViewController: UIViewController {
 
         //update text
         QuoteView.text = current?.message
+
+        //print for testing
+        print(currSub)
     }
     
     //Action for when left button is pressed
@@ -97,6 +100,9 @@ class ViewController: UIViewController {
 
         //update text
         QuoteView.text = current?.message
+
+        //print for testing
+        print(currSub)
     }
     
     //Action for when Generate is pressed

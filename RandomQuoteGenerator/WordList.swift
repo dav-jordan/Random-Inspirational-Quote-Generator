@@ -18,11 +18,17 @@ class WordList
     init()
     {
         length = 0
+        words = [" "]
     }
 
     //used to add a word to words array
     func addWord(add:String)
     {
+        if length == 0
+        {
+            words[0] = add
+            length = 1
+        }
         words.append(add)
         length = length + 1
     }
