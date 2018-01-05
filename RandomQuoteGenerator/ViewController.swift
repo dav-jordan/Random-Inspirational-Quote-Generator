@@ -35,18 +35,21 @@ class ViewController: UIViewController {
 
         //make quote read only
         QuoteView.isEditable = false
-
         //welcome message
         QuoteView.text = "Hello!\n Click the arrow buttons to choose a template, and then click \"Generate!\"."
 
         //init templates list
         templates = DLList()
-
         //load templates to list
         loadTemplates(list:templates!)
 
         //init current
         current = templates?.head
+
+        //init word lists
+        nouns = WordList()
+        verbs = WordList()
+        adjectives = WordList()
     }
 
     override func didReceiveMemoryWarning()
