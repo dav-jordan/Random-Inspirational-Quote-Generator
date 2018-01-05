@@ -24,6 +24,11 @@ class ViewController: UIViewController {
     var blank1:String = "[blank1]"
     var blank2:String = "[blank2]"
 
+    //word lists to be used to fill blanks
+    var nouns:WordList?
+    var verbs:WordList?
+    var adjectives:WordList?
+
     override func viewDidLoad()
     {
         super.viewDidLoad()
