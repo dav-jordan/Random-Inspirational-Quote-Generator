@@ -12,7 +12,7 @@ class WordList
     var words:[String]
 
     //size of word array
-    var length:Int
+    var length:UInt32
 
     //initializer
     init()
@@ -30,6 +30,7 @@ class WordList
     //returns a random word in words
     func randomWord() -> String
     {
-        return " "
+        let sub:Int = Int(arc4random_uniform(length))
+        return words[sub]
     }
 }
