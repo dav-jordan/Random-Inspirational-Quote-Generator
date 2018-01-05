@@ -16,8 +16,9 @@ class ViewController: UIViewController {
     //DLList for templates
     var templates:DLList?
 
-    //Node to store current location in list
+    //Node to store current location in list and int to store current subscript
     var current:DLNode?
+    var currSub:Int = -1
 
     //blank spaces to be filled
     var blank1:String = "[blank1]"
@@ -60,10 +61,14 @@ class ViewController: UIViewController {
         //move current to next location
         current = current?.next
 
+        //increment sub
+        currSub = currSub + 1
+
         //make sure current is not head
         if current?.message == templates?.head.message
         {
             current = current?.next
+            currSub = 0
         }
 
         //update text
@@ -80,10 +85,14 @@ class ViewController: UIViewController {
         //move current to previous location
         current = current?.prev
 
+        //decrement sub
+        currSub = currSub - 1
+
         //make sure current is not head
         if current?.message == templates?.head.message
         {
             current = current?.prev
+            currSub = 9
         }
 
         //update text
