@@ -4,3 +4,9 @@
 //
 
 import Foundation
+
+//class that will be used to make a group of words and get a word from that group
+class WordList
+{
+
+}
