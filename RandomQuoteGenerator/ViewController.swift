@@ -132,6 +132,10 @@ class ViewController: UIViewController {
         nouns?.addWord(add: "glove")
         nouns?.addWord(add: "migrant")
         nouns?.addWord(add: "determination")
+        nouns?.addWord(add: "assignment")
+        nouns?.addWord(add: "efficiency")
+        nouns?.addWord(add: "writer")
+        nouns?.addWord(add: "line")
     }
 
     //adds nodes to templates
