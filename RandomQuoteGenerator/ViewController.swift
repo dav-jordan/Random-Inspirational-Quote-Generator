@@ -116,7 +116,12 @@ class ViewController: UIViewController {
     //Generates the random word lists
     func generateWordLists()
     {
-
+        //add nouns
+        nouns?.addWord(add: "narcissism")
+        nouns?.addWord(add: "grill")
+        nouns?.addWord(add: "text")
+        nouns?.addWord(add: "gauntlet")
+        nouns?.addWord(add: "health")
     }
 
     //adds nodes to templates
