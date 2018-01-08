@@ -105,12 +105,18 @@ class ViewController: UIViewController {
         //update text
         QuoteView.text = current?.message
     }
-    
+
     //Action for when Generate is pressed
     //TODO:word lists will also needed
     @IBAction func generatePressed(_ sender:UIButton)
     {
         
+    }
+
+    //Generates the random word lists
+    func generateWordLists()
+    {
+
     }
 
     //adds nodes to templates
