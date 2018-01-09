@@ -153,6 +153,13 @@ class ViewController: UIViewController {
         adjectives?.addWord(add: "sturdy")
         adjectives?.addWord(add: "frail")
         adjectives?.addWord(add: "kind")
+        adjectives?.addWord(add: "unruly")
+        adjectives?.addWord(add: "careless")
+        adjectives?.addWord(add: "obscene")
+        adjectives?.addWord(add: "defective")
+        adjectives?.addWord(add: "venomous")
+        adjectives?.addWord(add: "vague")
+        adjectives?.addWord(add: "selfish")
     }
 
     //adds nodes to templates
