@@ -114,8 +114,8 @@ class ViewController: UIViewController {
     {
         if currSub == 0
         {
-            blank1 = adjectives!.randomWord()
-            blank2 = nouns!.randomWord()
+            templates?.getIth(i: 0).replaceString(from: "[blank1]", to: "[test]")
+            templates?.getIth(i: 0).replaceString(from: "[blank2]", to: "[test]")
         }
     }
 
