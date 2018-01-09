@@ -50,6 +50,7 @@ class ViewController: UIViewController {
         nouns = WordList()
         verbs = WordList()
         adjectives = WordList()
+        generateWordLists()
     }
 
     override func didReceiveMemoryWarning()
@@ -107,9 +108,15 @@ class ViewController: UIViewController {
     }
 
     //Action for when Generate is pressed
+    //need different ones for each subscript because not all of them
+    //use the same two types of words
     @IBAction func generatePressed(_ sender:UIButton)
     {
-        
+        if currSub == 0
+        {
+            blank1 = adjectives!.randomWord()
+            blank2 = nouns!.randomWord()
+        }
     }
 
     //Generates the random word lists
