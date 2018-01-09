@@ -140,6 +140,19 @@ class ViewController: UIViewController {
         //add verbs
         verbs?.addWord(add: "scratch")
         verbs?.addWord(add: "cough")
+        verbs?.addWord(add: "kneel")
+        verbs?.addWord(add: "interfere")
+        verbs?.addWord(add: "wrestle")
+        verbs?.addWord(add: "lock")
+        verbs?.addWord(add: "carry")
+        verbs?.addWord(add: "appreciate")
+        verbs?.addWord(add: "roll")
+        verbs?.addWord(add: "measure")
+
+        //add adjectives
+        adjectives?.addWord(add: "sturdy")
+        adjectives?.addWord(add: "frail")
+        adjectives?.addWord(add: "kind")
     }
 
     //adds nodes to templates
