@@ -111,4 +111,29 @@ class DLList
         //increment length
         length = length + 1
     }
+
+    //returns DLNode at i
+    func getIth(i: Int) -> DLNode
+    {
+        //make sure i is valid
+        if i >= length || i < 0
+        {
+            print("ERROR: i not a valid subscript")
+            return DLNode()
+        }
+
+        //init traversing node and counter
+        var e:DLNode? = head.next
+        var k:Int = 0
+
+        //loop through list until i
+        while k < i
+        {
+            e = e?.next
+            k = k + 1
+        }
+
+        //return node at i
+        return e
+    }
 }
