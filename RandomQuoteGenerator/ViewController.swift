@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//TODO: Add function that adds words to the lists
+
 class ViewController: UIViewController {
 
     //Outlet for text field
@@ -107,7 +107,6 @@ class ViewController: UIViewController {
     }
 
     //Action for when Generate is pressed
-    //TODO:word lists will also needed
     @IBAction func generatePressed(_ sender:UIButton)
     {
         
