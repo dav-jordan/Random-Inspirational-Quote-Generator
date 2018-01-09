@@ -134,6 +134,6 @@ class DLList
         }
 
         //return node at i
-        return e
+        return e!
     }
 }
