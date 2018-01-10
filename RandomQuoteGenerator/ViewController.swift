@@ -112,6 +112,7 @@ class ViewController: UIViewController {
     //use the same two types of words
     @IBAction func generatePressed(_ sender:UIButton)
     {
+        //check currSub so the correct template is modified
         if currSub == 0
         {
             templates?.getIth(i: 0).replaceString(from: "[blank1]", to: "[test]")
@@ -127,6 +128,7 @@ class ViewController: UIViewController {
             templates?.getIth(i: 2).replaceString(from: "[blank1]", to: "[test]")
             templates?.getIth(i: 2).replaceString(from: "[blank2]", to: "[test]")
         }
+        //update QuoteView text
         QuoteView.text = templates?.getIth(i: currSub).message
     }
 
