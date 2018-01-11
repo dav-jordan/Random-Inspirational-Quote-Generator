@@ -139,13 +139,13 @@ class ViewController: UIViewController {
         }
         else if currSub == 4
         {
-            templates?.getIth(i: 4).replaceString(from: blank1, to: "[test]")
-            templates?.getIth(i: 4).replaceString(from: blank2, to: "[test]")
+            templates?.getIth(i: 4).replaceString(from: blank1, to: verbs!.randomWord())
+            templates?.getIth(i: 4).replaceString(from: blank2, to: nouns!.randomWord())
         }
         else if currSub == 5
         {
-            templates?.getIth(i: 5).replaceString(from: blank1, to: "[test]")
-            templates?.getIth(i: 5).replaceString(from: blank2, to: "[test]")
+            templates?.getIth(i: 5).replaceString(from: blank1, to: verbs!.randomWord())
+            templates?.getIth(i: 5).replaceString(from: blank2, to: nouns!.randomWord())
         }
         else if currSub == 6
         {
