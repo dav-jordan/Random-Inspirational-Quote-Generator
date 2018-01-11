@@ -149,6 +149,26 @@ class ViewController: UIViewController {
             templates?.getIth(i: 6).replaceString(from: blank1, to: "[test]")
             templates?.getIth(i: 6).replaceString(from: blank2, to: "[test]")
         }
+        else if currSub == 7
+        {
+            templates?.getIth(i: 7).replaceString(from: blank1, to: "[test]")
+            templates?.getIth(i: 7).replaceString(from: blank2, to: "[test]")
+        }
+        else if currSub == 8
+        {
+            templates?.getIth(i: 8).replaceString(from: blank1, to: "[test]")
+            templates?.getIth(i: 8).replaceString(from: blank2, to: "[test]")
+        }
+        else if currSub == 9
+        {
+            templates?.getIth(i: 9).replaceString(from: blank1, to: "[test]")
+            templates?.getIth(i: 9).replaceString(from: blank2, to: "[test]")
+        }
+        else 
+        {
+            print("ERROR: currSub not found")
+            return
+        }
         //update QuoteView text
         QuoteView.text = templates?.getIth(i: currSub).message
     }
