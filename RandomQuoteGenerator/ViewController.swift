@@ -112,6 +112,11 @@ class ViewController: UIViewController {
     @IBAction func generatePressed(_ sender:UIButton)
     {
         //check currSub so the correct template is modified
+        if currSub == -1
+        {
+            QuoteView.text = "I said you need to pick a template before you generate a quote."
+            return
+        }
         if currSub == 0
         {
             templates?.getIth(i: 0).replaceString(from: blank1, to: "[test]")
