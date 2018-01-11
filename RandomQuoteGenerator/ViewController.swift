@@ -164,8 +164,8 @@ class ViewController: UIViewController {
         }
         else if currSub == 9
         {
-            templates?.getIth(i: 9).replaceString(from: blank1, to: "[test]")
-            templates?.getIth(i: 9).replaceString(from: blank2, to: "[test]")
+            templates?.getIth(i: 9).replaceString(from: blank1, to: nouns!.randomWord())
+            templates?.getIth(i: 9).replaceString(from: blank2, to: nouns!.randomWord())
         }
         else 
         {
