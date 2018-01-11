@@ -139,6 +139,16 @@ class ViewController: UIViewController {
             templates?.getIth(i: 4).replaceString(from: blank1, to: "[test]")
             templates?.getIth(i: 4).replaceString(from: blank2, to: "[test]")
         }
+        else if currSub == 5
+        {
+            templates?.getIth(i: 5).replaceString(from: blank1, to: "[test]")
+            templates?.getIth(i: 5).replaceString(from: blank2, to: "[test]")
+        }
+        else if currSub == 6
+        {
+            templates?.getIth(i: 6).replaceString(from: blank1, to: "[test]")
+            templates?.getIth(i: 6).replaceString(from: blank2, to: "[test]")
+        }
         //update QuoteView text
         QuoteView.text = templates?.getIth(i: currSub).message
     }
