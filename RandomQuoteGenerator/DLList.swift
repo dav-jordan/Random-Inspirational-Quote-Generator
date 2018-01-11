@@ -7,6 +7,7 @@ import Foundation
 
 //Struct that will be used for every node of the Doubly linked list
 //the message variable will be used to store the templates for the quotes, one template per node
+//TODO: Add reset string function to be used after quote is generated and page is left
 class DLNode
 {
     //template storage
