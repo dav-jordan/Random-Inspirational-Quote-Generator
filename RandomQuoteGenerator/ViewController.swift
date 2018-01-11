@@ -116,23 +116,28 @@ class ViewController: UIViewController {
         //check currSub so the correct template is modified
         if currSub == 0
         {
-            templates?.getIth(i: 0).replaceString(from: "[blank1]", to: "[test]")
-            templates?.getIth(i: 0).replaceString(from: "[blank2]", to: "[test]")
+            templates?.getIth(i: 0).replaceString(from: blank1, to: "[test]")
+            templates?.getIth(i: 0).replaceString(from: blank2, to: "[test]")
         }
         else if currSub == 1
         {
-            templates?.getIth(i: 1).replaceString(from: "[blank1]", to: "[test]")
-            templates?.getIth(i: 1).replaceString(from: "[blank2]", to: "[test]")
+            templates?.getIth(i: 1).replaceString(from: blank1, to: "[test]")
+            templates?.getIth(i: 1).replaceString(from: blank2, to: "[test]")
         }
         else if currSub == 2
         {
-            templates?.getIth(i: 2).replaceString(from: "[blank1]", to: "[test]")
-            templates?.getIth(i: 2).replaceString(from: "[blank2]", to: "[test]")
+            templates?.getIth(i: 2).replaceString(from: blank1, to: "[test]")
+            templates?.getIth(i: 2).replaceString(from: blank2, to: "[test]")
         }
         else if currSub == 3
         {
-            templates?.getIth(i: 3).replaceString(from: "[blank1]", to: "[test]")
-            templates?.getIth(i: 3).replaceString(from: "[blank2]", to: "[test]")
+            templates?.getIth(i: 3).replaceString(from: blank1, to: "[test]")
+            templates?.getIth(i: 3).replaceString(from: blank2, to: "[test]")
+        }
+        else if currSub == 4
+        {
+            templates?.getIth(i: 4).replaceString(from: blank1, to: "[test]")
+            templates?.getIth(i: 4).replaceString(from: blank2, to: "[test]")
         }
         //update QuoteView text
         QuoteView.text = templates?.getIth(i: currSub).message
