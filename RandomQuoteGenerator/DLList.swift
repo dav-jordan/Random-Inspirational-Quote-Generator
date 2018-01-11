@@ -12,6 +12,7 @@ class DLNode
 {
     //template storage
     var message : String
+    var reset : String
 
     //next and prev for DLList
     var next : DLNode?
@@ -21,12 +22,14 @@ class DLNode
     init()
     {
         message = ""
+        reset = ""
         next = nil
         prev = nil
     }
     init(value:String)
     {
         message = value
+        reset = value
         next = nil
         prev = nil
     }
@@ -48,7 +51,7 @@ class DLNode
     //resets string to original
     func resetString()
     {
-
+        message = reset
     }
 }
 
