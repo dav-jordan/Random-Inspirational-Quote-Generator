@@ -44,6 +44,12 @@ class DLNode
         //change "from" to "to"
         message = message.replacingOccurrences(of:from, with:to)
     }
+
+    //resets string to original
+    func resetString()
+    {
+
+    }
 }
 
 
