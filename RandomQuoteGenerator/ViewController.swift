@@ -62,9 +62,8 @@ class ViewController: UIViewController {
     //Action for when right button is pressed
     @IBAction func rightButtonPressed(_ sender:UIButton)
     {
-        //reset blanks
-        blank1 = "[blank1]"
-        blank2 = "[blank2]"
+        //reset message
+        templates?.getIth(i: currSub).resetString()
 
         //move current to next location
         current = current?.next
@@ -86,9 +85,8 @@ class ViewController: UIViewController {
     //Action for when left button is pressed
     @IBAction func leftButtonPressed(_ sender:UIButton)
     {
-        //reset blanks
-        blank1 = "[blank1]"
-        blank2 = "[blank2]"
+        //reset message
+        templates?.getIth(i: currSub).resetString()
 
         //move current to previous location
         current = current?.prev
