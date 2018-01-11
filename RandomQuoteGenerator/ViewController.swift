@@ -149,8 +149,8 @@ class ViewController: UIViewController {
         }
         else if currSub == 6
         {
-            templates?.getIth(i: 6).replaceString(from: blank1, to: "[test]")
-            templates?.getIth(i: 6).replaceString(from: blank2, to: "[test]")
+            templates?.getIth(i: 6).replaceString(from: blank1, to: adjectives!.randomWord().capitalized)
+            templates?.getIth(i: 6).replaceString(from: blank2, to: verbs!.randomWord())
         }
         else if currSub == 7
         {
