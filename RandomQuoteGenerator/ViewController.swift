@@ -108,7 +108,6 @@ class ViewController: UIViewController {
     //Action for when Generate is pressed
     //need different ones for each subscript because not all of them
     //use the same two types of words
-    //TODO: replace "to"s with randomWords
     //TODO: add temps to be able to generate again before switching off
     @IBAction func generatePressed(_ sender:UIButton)
     {
