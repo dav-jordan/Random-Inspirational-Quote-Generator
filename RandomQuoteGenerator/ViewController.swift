@@ -120,8 +120,8 @@ class ViewController: UIViewController {
         }
         if currSub == 0
         {
-            templates?.getIth(i: 0).replaceString(from: blank1, to: "[test]")
-            templates?.getIth(i: 0).replaceString(from: blank2, to: "[test]")
+            templates?.getIth(i: 0).replaceString(from: blank1, to: adjectives!.randomWord())
+            templates?.getIth(i: 0).replaceString(from: blank2, to: nouns!.randomWord())
         }
         else if currSub == 1
         {
