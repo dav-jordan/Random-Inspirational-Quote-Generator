@@ -135,8 +135,8 @@ class ViewController: UIViewController {
         }
         else if currSub == 3
         {
-            templates?.getIth(i: 3).replaceString(from: blank1, to: "[test]")
-            templates?.getIth(i: 3).replaceString(from: blank2, to: "[test]")
+            templates?.getIth(i: 3).replaceString(from: blank1, to: nouns!.randomWord())
+            templates?.getIth(i: 3).replaceString(from: blank2, to: nouns!.randomWord())
         }
         else if currSub == 4
         {
