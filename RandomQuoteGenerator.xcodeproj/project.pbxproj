@@ -194,6 +194,11 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = "Davis Jordan";
+				TargetAttributes = {
+					3EC1EBCE4C36E1549D59A3DF = {
+						DevelopmentTeam = VY3PXR54B9;
+					};
+				};
 			};
 			buildConfigurationList = 3EC1E02471C0B8F1F34EED27 /* Build configuration list for PBXProject "RandomQuoteGenerator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -308,7 +313,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VY3PXR54B9;
 				INFOPLIST_FILE = RandomQuoteGenerator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jordan.RandomQuoteGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,7 +378,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VY3PXR54B9;
 				INFOPLIST_FILE = RandomQuoteGenerator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Jordan.RandomQuoteGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,6 +519,7 @@
 				3EC1EC5B05915899A5CB8F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EC1ED32CB4583CD4ACDA8C9 /* Build configuration list for PBXNativeTarget "RandomQuoteGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +528,7 @@
 				3EC1EEADC4F33D8A66B6E9B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EC1EDC873FFC06F602C44C8 /* Build configuration list for PBXNativeTarget "RandomQuoteGenerator" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +537,7 @@
 				3EC1E63315F05E6135BDC03D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
