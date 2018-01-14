@@ -23,9 +23,6 @@ class ViewController: UIViewController {
     //blank spaces to be filled
     var blank1:String = "[blank1]"
     var blank2:String = "[blank2]"
-    //temps that will be used to be able to generate another quote before switching off of a template
-    var temp1:String?
-    var temp2:String?
 
     //word lists to be used to fill blanks
     var nouns:WordList?
@@ -111,7 +108,6 @@ class ViewController: UIViewController {
     //Action for when Generate is pressed
     //need different ones for each subscript because not all of them
     //use the same two types of words
-    //TODO: add temps to be able to generate again before switching off
     @IBAction func generatePressed(_ sender:UIButton)
     {
         //check currSub so the correct template is modified
