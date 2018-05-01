@@ -1,7 +1,5 @@
 # Random-Inspirational-Quote-Generator
 
-*Not Finished*
-
 This is a funny project that randomly generates inspirational quotes from a few predetermined templates.
 This app works by storing some predetermined templates with blank spaces to be filled in in a doubly 
 linked list and the user can choose whichever one they want. After hitting a generate button, the blank 
